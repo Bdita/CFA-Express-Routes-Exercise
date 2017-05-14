@@ -25,7 +25,7 @@
     res.send('hello world')
   })
   ```
-  To verify the output using your browser, type localhost:3000
+  To verify the output using your browser, type localhost:3000 .
   You should see below message.
   ```
     Welcome to my project for learning express routes.
@@ -37,7 +37,7 @@
     res.send('about')
   })
   ```  
-  To verify the output using your browser, type localhost:3000/about
+  To verify the output using your browser, type localhost:3000/about .
   You should see below message.
   ```
     About: Aspiring web developer learning to make routes in Express.js framework.
@@ -50,7 +50,7 @@
     res.send(req.params)
   })
   ```  
-  To verify the output using your browser, type localhost:3000/users/2/books/3
+  To verify the output using your browser, type localhost:3000/users/2/books/3 .
   You should see below message.
   ```
     {"userId":"2","bookId":"3"}
@@ -62,7 +62,7 @@
     res.json({"message" : "Hello, User "+req.params.id});
   });
   ```
-  To verify the output using your browser, type localhost:3000/user/yourname
+  To verify the output using your browser, type localhost:3000/user/yourname .
   You should see below message.
   ```
     {"message":"Hello yourname"}
@@ -74,7 +74,7 @@
     res.send(req.params)
   })
   ```
-  To verify the output using your browser, type localhost:3000/flights/Sydney-Melbourne
+  To verify the output using your browser, type localhost:3000/flights/Sydney-Melbourne .
   You should see below message.
   ```
     {"from":"Sydney","to":"Melbourne"}
@@ -88,7 +88,7 @@
     res.send(req.params)
   })
   ```
-  To verify the output using your browser, type localhost:3000/users/example.smith
+  To verify the output using your browser, type localhost:3000/users/example.smith .
   You should see below message.
   ```
     {"firstname":"example","lastname":"smith"}
@@ -108,7 +108,7 @@
     res.json({"message" : "Hello World"});
   });
   ```
-  To verify the output using your browser, type localhost:3000/middleware
+  To verify the output using your browser, type localhost:3000/middleware .
   You should see below message in your server.
   ```
     /middlewareGET
@@ -121,9 +121,9 @@
     res.status(404).send('404 Error');
   });
   ```
-  To verify the output using your browser, type localhost:3000/abcd (or any other random name for which the routes are not defined)
+  To verify the output using your browser, type localhost:3000/abcd (or any other random name for which the routes are not defined) .
   You should see below message in your browser.
   ```
     404 Error
   ```
-######More routing practice exercise will be added in this repository in future.
+###### More routing practice exercise will be added in this repository in future.
